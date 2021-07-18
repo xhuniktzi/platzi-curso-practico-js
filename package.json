@@ -1,0 +1,26 @@
+{
+  "name": "platzi-curso-practico",
+  "version": "1.0.0",
+  "description": "- [platzi-curso-practico-javascript](#platzi-curso-practico-javascript)\r   - [Taller #1: figuras geométricas](#taller-1-figuras-geométricas)\r   - [Taller #2: porcentajes y descuentos](#taller-2-porcentajes-y-descuentos)\r   - [Taller #3: promedio, mediana y moda](#taller-3-promedio-mediana-y-moda)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhuniktzi/platzi-curso-practico-js.git"
+  },
+  "author": "Xhunik Miguel",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/xhuniktzi/platzi-curso-practico-js/issues"
+  },
+  "homepage": "https://github.com/xhuniktzi/platzi-curso-practico-js#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
