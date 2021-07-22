@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estadística | Curso practico de JavaScript | Platzi</title>
+    <link rel="stylesheet" href="./estadistica.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Estadística</h1>
+      <p>Taller #3 del curso practico de JS</p>
+    </header>
+    <main>
+      <section>
+        <h2>Ingreso de datos</h2>
+        <form>
+          <label for="numero">Numero:</label>
+          <input type="number" name="numero" id="numero" />
+          <button id="agregar-numero" type="button">Agregar</button>
+          <button id="calcular" type="button">Calcular</button>
+        </form>
+      </section>
+      <section>
+        <h2>Números agregados</h2>
+        <div id="lista-numeros"></div>
+      </section>
+      <section>
+        <h2>Resultados</h2>
+        <div id="resultados"></div>
+      </section>
+    </main>
+    <script src="./estadistica.js"></script>
+  </body>
+</html>
